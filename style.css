@@ -1,0 +1,106 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --blue: #503ce689;
+  --bluehover: #503ce6be;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 1.6rem;
+}
+
+.container, .profile, .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background: var(--body-bg-color);
+}
+
+.profile {
+  width: 15.5rem;
+  height: 17.8rem;
+
+  border: 3px solid var(--blue);
+  border-radius: 50%;
+}
+
+.profile img {
+  width: 15rem;
+  height: 17rem;
+
+  border-radius: 50%;
+}
+
+.username, .link {
+  color: var(--blue);
+  line-height: 2.4rem;
+}
+
+.username {
+  font-weight: 300;
+  margin-top: 1.4rem;
+  margin-bottom: 3.3rem;
+}
+
+.husername {
+  text-decoration: none;
+  margin: 2rem 0rem;
+  transition: 200ms;
+}
+
+.husername:hover {
+  transform: scale(1.2);
+}
+
+.link {
+  width: 32.6rem;
+  height: 4.9rem;
+
+  border: 0.2rem solid var(--blue);
+  border-radius: 0.4rem;
+  
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
+
+  transition: 200ms;
+}
+
+.link:hover {
+  color: var(--bluehover);
+  border: 0.2rem solid var(--bluehover)
+}
+
+.icons {
+  display: flex;
+  gap: 2.9rem;
+
+  margin: 5.2rem;
+
+  
+
+}
+
+.logo{
+  transition: 180ms;
+}
+
+.logo:hover {
+  transform: scale(1.5);
+}
