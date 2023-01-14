@@ -14,6 +14,7 @@ body {
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.6rem;
+  background: var(--body-bg-color);
 }
 
 .container, .profile, .link {
@@ -26,8 +27,6 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-
-  background: var(--body-bg-color);
 }
 
 .profile {
